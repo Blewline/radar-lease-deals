@@ -1,0 +1,18 @@
+[
+ {"broker": "Rivian (manufacturer)", "lh_username": null, "source_tab": "rivian.com/r1s", "tab_updated_per_sheet": "Example offer 11/3/2026-11/30/2026",
+  "unit_type_status": "New", "year": 2027, "make": "Rivian", "model": "R1S", "trim_description": "Premium (22-inch Range wheels, Esker Silver paint, Black Mountain interior)",
+  "msrp_as_listed": "$85,885 vehicle price (includes $1,895 destination fee)", "msrp_usd": 85885, "msrp_approx": "N",
+  "monthly_payment_usd": 1209, "payment_basis": "Pre-tax (excludes state/local taxes)",
+  "due_at_signing_as_listed": "$9,104 due at signing (includes $7,000 cap cost reduction incl. $500 order deposit, 1st month, $895 acquisition fee; tax/title/registration/doc fees extra)",
+  "das_usd": 9104, "term_mo": 36, "miles_yr": 10000, "region": "Rivian leasing states only (see rivian.com/support/article/where-does-rivian-offer-leasing)",
+  "broker_service_fee": "None (manufacturer direct)", "notes": "Manufacturer example lease offer, subject to credit approval via Rivian's approved lender; $0.30/excess mile, $495 disposition fee; no security deposit",
+  "spreadsheet_url": "https://rivian.com/r1s", "posted_date": "2026-11-03", "expires": "2026-11-30", "source_url": "https://rivian.com/r1s"},
+ {"broker": "Rivian (manufacturer)", "lh_username": null, "source_tab": "rivian.com/r1t", "tab_updated_per_sheet": "Example offer 11/3/2026-11/30/2026",
+  "unit_type_status": "New", "year": 2027, "make": "Rivian", "model": "R1T", "trim_description": "Premium (20-inch Adventure All Season wheels, Esker Silver paint, Black Mountain interior)",
+  "msrp_as_listed": "$81,885 vehicle price (includes $1,895 destination fee)", "msrp_usd": 81885, "msrp_approx": "N",
+  "monthly_payment_usd": 1199, "payment_basis": "Pre-tax (excludes state/local taxes)",
+  "due_at_signing_as_listed": "$9,094 due at signing (includes $7,000 cap cost reduction incl. $500 order deposit, 1st month, $895 acquisition fee; tax/title/registration/doc fees extra)",
+  "das_usd": 9094, "term_mo": 36, "miles_yr": 10000, "region": "Rivian leasing states only (see rivian.com/support/article/where-does-rivian-offer-leasing)",
+  "broker_service_fee": "None (manufacturer direct)", "notes": "Manufacturer example lease offer, subject to credit approval via Rivian's approved lender; $0.30/excess mile, $495 disposition fee; no security deposit",
+  "spreadsheet_url": "https://rivian.com/r1t", "posted_date": "2026-11-03", "expires": "2026-11-30", "source_url": "https://rivian.com/r1t"}
+]
