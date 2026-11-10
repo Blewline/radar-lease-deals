@@ -4,12 +4,12 @@
   "leasehackr_username": "neviewauto",
   "type": "Broker",
   "region_states_served": "California (SoCal-based; NorCal & SoCal pricing on Mercedes tab)",
-  "forum_thread_url_s": "https://forum.leasehackr.com/t/socal-october-bmw-specials-330i-demo-379-x3-demo-449-3k-das/739884\nhttps://forum.leasehackr.com/t/mercedes-benz-october-lease-specials-glb250-199-c300-164-gle350-399-3-5k-das/680357\nhttps://forum.leasehackr.com/t/porsche-september-lease-specials-in-socal-macan-demo-699-tax-3k-das/783160",
+  "forum_thread_url_s": "https://forum.leasehackr.com/t/739884 (SoCal November BMW)\nhttps://forum.leasehackr.com/t/680357 (Mercedes-Benz November)\nhttps://forum.leasehackr.com/t/783160 (Porsche)",
   "spreadsheet_url": "https://docs.google.com/spreadsheets/d/1a2LGPqckDi_qBiDVECBrroh5M2v5YcqrAIaFGN6Sl5U/edit",
-  "last_updated_per_sheet": "Per-tab: Mercedes \"10.30 updated\"; BMW \"10.2\"; Lexus \"10.13\"; Audi \"9.9\"; Porsche \"9.22\"; Hyundai \"8.21\"; Cadillac \"3.11\"",
-  "latest_thread_post_pt": "2026-10-30 (Mercedes thread)",
+  "last_updated_per_sheet": "Per-tab (checked 2026-11-10): Mercedes \"11.8 updated\"; BMW \"11.2\"; Lexus \"10.13\"; Audi \"9.9\"; Porsche \"9.22\"; Hyundai \"8.21\"; Cadillac \"3.11\"; Toyota/VW/Kia undated",
+  "latest_thread_post_pt": "2026-11-08 (Mercedes November thread)",
   "contact": "Text 949-628-8888; info@neviewauto.com (SoCal Subaru/Porsche/MB tabs: Pete 626-927-6396, neviewauto@gmail.com)",
-  "deals_pulled_all_deals_rows": 115,
+  "deals_pulled_all_deals_rows": 98,
   "access_status": "Accessible (public Google Sheet export)",
   "notes": "Payments are pre-tax. MB pricing requires AAA/Sam's Club/Fleet; BMW requires loyalty. Skipped in All Deals: \"Copy of Audi\" (old 2024/25 blowout copy) and 3 SoCal tabs with a single row and no model name. MSRPs mostly shown as \"$51,xxx\" → lower-bound numeric."
  },
@@ -20,24 +20,24 @@
   "region_states_served": "California (SoCal & NorCal)",
   "forum_thread_url_s": "https://forum.leasehackr.com/t/pmi-porsche-mercedes-range-rover-glb-199-c300-289-glc-489-gle-559-3-5k-das/559196\nhttps://forum.leasehackr.com/t/pmi-bmw-audi-a5-222-q5-399-x3-459-i4-529-3k-das-for-audi-3-5k-das-for-bmw/543300\nhttps://forum.leasehackr.com/t/pmi-lexus-toyota-nx-384-es-450-rx-477-tx-562-ux-453-3k-das/534682\nhttps://forum.leasehackr.com/t/pmi-hyundai-kona-185-santa-fe-275-palisade-260-palisade-hybrid-350-3k-das/534676\nhttps://forum.leasehackr.com/t/pmi-gmc-cadillac-buick-canyon-299-sierra-399-lyriq-525-5k-das/535347",
   "spreadsheet_url": "https://docs.google.com/spreadsheets/d/1lJp8CvddZHpt4iDFJGXCSHxvUqzDtWOqvrgCla5145Y/edit",
-  "last_updated_per_sheet": "No sheet-wide date. Section labels: \"LEXUS (OCTOBER DEALS)\", Toyota \"UNDER CONSTRUCTION\", Genesis \"September\", Volvo \"AUGUST DEALS\"",
-  "latest_thread_post_pt": "2026-10-28",
+  "last_updated_per_sheet": "No sheet-wide date. Section labels (2026-11-10): BMW \"NOVEMBER DEALS\", Lexus \"LEXUS (NOVEMBER DEALS)\"; Audi & Honda \"OCTOBER DEALS\"; Range Rover \"AUGUST DEALS\"; Toyota/Acura \"UNDER CONSTRUCTION\"",
+  "latest_thread_post_pt": "2026-11-09",
   "contact": "Text 949-736-3296 (also 858-568-2344); sales@platinummotorsimports.com",
-  "deals_pulled_all_deals_rows": 348,
+  "deals_pulled_all_deals_rows": 363,
   "access_status": "Accessible (public Google Sheet export)",
-  "notes": "\"PMI DEALS MASTER SPREADSHEET\" (most recently linked in Aug 2026 posts). A second, older PMI sheet (1w0rtNz5...) is also public but mostly empty/older. Payments + tax; broker/service fee listed per unit. MSRP shown as \"(52k)\" → rounded numeric. Volvo tab had no payments."
+  "notes": "\"PMI DEALS MASTER SPREADSHEET\". Payments + tax; broker/service fee listed per unit. MSRP shown as \"(52k)\" -> rounded numeric. posted_date = section month label (YYYY-MM) when present, else PMI's latest post in the matching brand thread. Escalade IQL \"$2.,245\" (malformed in sheet) and Colorado \"$7,000 One Pay\" are not published."
  },
  {
   "broker": "Lease Wizards (Lease.Wiz)",
   "leasehackr_username": "Lease.Wiz",
   "type": "Broker",
   "region_states_served": "NY, NJ, CT, PA, RI, DE, FL (home delivery); threads tagged nationwide",
-  "forum_thread_url_s": "https://forum.leasehackr.com/t/lease-wizards-october-economy-deals-up-to-18-off-ny-nj-ct-pa-ri-de-fl-home-delivery-text-929-414-9013/726323\nhttps://forum.leasehackr.com/t/luxury-october-deals-up-to-20-off-ny-nj-ct-pa-ri-de-fl-home-delivery-929-414-9013-lease-wizards/742352",
+  "forum_thread_url_s": "https://forum.leasehackr.com/t/726323 (November Economy)\nhttps://forum.leasehackr.com/t/742352 (Luxury November)",
   "spreadsheet_url": "https://docs.google.com/spreadsheets/d/17XIc0WpYVeQ5noZ66pkJrPoIYMXQ92cjj43yvMOOBv4/edit",
-  "last_updated_per_sheet": "Per-tab \"UPDATED\" stamps: 10/04–10/12 on most tabs; Toyota 09/05; Mercedes 09/04; Land Rover 05/11",
-  "latest_thread_post_pt": "2026-11-02",
+  "last_updated_per_sheet": "Per-tab \"UPDATED\" stamps (2026-11-10): 11/04 on most tabs; Audi 10/04; Lexus & CJDR 10/07",
+  "latest_thread_post_pt": "2026-11-05",
   "contact": "Text (929) 414-9013; Mike@theleasewiz.com; WhatsApp + inquiry form linked in sheet",
-  "deals_pulled_all_deals_rows": 125,
+  "deals_pulled_all_deals_rows": 126,
   "access_status": "Accessible (public Google Sheet export)",
   "notes": "DAS column mostly reads \"Tax, Title, & License\" or \"INCEPTIONS\" (no $ figure), so effective monthly is not computed. Quotes assume top-tier credit with all rebates excl. affinity. Mercedes and Land Rover tabs list MSRP/term only (no payments)."
  },
@@ -48,10 +48,10 @@
   "region_states_served": "NY, NJ, CT, PA (limited out-of-state shipping)",
   "forum_thread_url_s": "https://forum.leasehackr.com/t/bmw-26-loaners-19-530xi-for-487-mth-inception-27-i5-14-27-x5-order-10-x1-x3-3-5-13-m440xi-15-off/124581\nhttps://forum.leasehackr.com/t/hns-mercedes-loaner-2026-gle-350-19-2-off-634-mth-inceptions-das-or-783-mth-with-783-das-for-24-10k-in-nj/503801\nhttps://forum.leasehackr.com/t/hn308s-review-brokering-bmw-infiniti-lexus-in-ny-nj-ct-pa-with-limited-out-of-state-shipping-for-bmw/139551",
   "spreadsheet_url": "https://docs.google.com/spreadsheets/d/1wj42phKxrEIMgMo8BPqsweSq0zwZR-gA6e2IK3Cy4JY/edit",
-  "last_updated_per_sheet": "New BMW / Loaner BMW tabs: \"OCT 2026\"; Mercedes & Cadillac tabs: \"Aug 2026\"; Lexus tab: \"Jul 2024\"",
-  "latest_thread_post_pt": "2026-11-02",
+  "last_updated_per_sheet": "New BMW tab: \"NOV 2026\"; Loaner BMW: \"OCT 2026\"; Mercedes & Cadillac tabs: \"Aug 2026\"; Lexus: \"Jul 2024\" (skipped)",
+  "latest_thread_post_pt": "2026-11-10",
   "contact": "Text 201-754-8047 or Leasehackr PM",
-  "deals_pulled_all_deals_rows": 30,
+  "deals_pulled_all_deals_rows": 23,
   "access_status": "Accessible (public Google Sheet export, even though the forum preview says \"This Sheet is private\")",
   "notes": "DAS taken from the \"lease_das\" value inside each row's Leasehackr calculator link (tax & fees upfront); blank where no link. Broker fees $650–$1,499. Skipped in All Deals: \"Sold\" history tab, old \" Loaner cars\" tab, Jul-2024 Lexus tab. Many Mercedes rows are marked SOLD (kept, filter on status)."
  },
@@ -62,10 +62,10 @@
   "region_states_served": "East Coast (free delivery); thread tags NY, NJ, CT, PA, VA, MD, NC",
   "forum_thread_url_s": "https://forum.leasehackr.com/t/lightning-auto-november-2026-ford-cdjr-mazda-mercedes-benz-deals-free-delivery-tremor-firesale/616669",
   "spreadsheet_url": "https://docs.google.com/spreadsheets/d/1pq7luu8sK1-BB63sKdiGzEnNta-qvxMjjdNhnmL5m3c/edit",
-  "last_updated_per_sheet": "Ford tab \"October 2026\"; CDJR & Mazda tabs \"November 2026\"",
-  "latest_thread_post_pt": "2026-11-03",
+  "last_updated_per_sheet": "Ford, CDJR & Mazda tabs: \"November 2026\"",
+  "latest_thread_post_pt": "2026-11-07",
   "contact": "Text 929-737-9339",
-  "deals_pulled_all_deals_rows": 64,
+  "deals_pulled_all_deals_rows": 58,
   "access_status": "Accessible (public Google Sheet export)",
   "notes": "$499 broker fee. DAS = \"1st Month + TTL\". Each 36-mo and 48-mo figure is its own row. Sheet disclaimer: advertised pricing is an estimate. No mileage stated in sheet. Several Mazda 48-mo cells read \"473/M\" (same value as a CDJR cell), which looks like a carry-over in the sheet; verify before using."
  },
@@ -74,14 +74,14 @@
   "leasehackr_username": "amasih",
   "type": "Direct dealer (no broker fee)",
   "region_states_served": "Cumming, GA; ships nationwide",
-  "forum_thread_url_s": "https://forum.leasehackr.com/t/ga-genesis-november-incentives-are-live-direct-genesis-dealer-no-broker-fees-nationwide-availability/750114\nhttps://forum.leasehackr.com/t/ga-hyundai-deals-all-only-1st-pmt-due-at-signing-palisade-380-santa-fe-350-sonata-322-and-more/786814",
+  "forum_thread_url_s": "https://forum.leasehackr.com/t/750114 (Genesis November)\nhttps://forum.leasehackr.com/t/786814 (Hyundai)",
   "spreadsheet_url": "https://docs.google.com/spreadsheets/d/1pRCqr7-fkwZagi2lBZdTTPTW-sPleLBa3buUK8BRlVI/edit (Genesis)  |  https://docs.google.com/spreadsheets/d/1iqg9AjbPU1oPn-KUFsGUDq5om87-RFXKyO7j9Cl4Ns0/edit (Hyundai)",
-  "last_updated_per_sheet": "Tabs named \"OCTOBER - NEW/LOANERS\"; Hyundai sheet \"Last synced: Nov 4, 2026 7:37 AM EST\" (Nov 4, 4:37 AM PT)",
-  "latest_thread_post_pt": "2026-11-03",
+  "last_updated_per_sheet": "Tabs \"NOVEMBER - NEW/LOANERS\"; Hyundai sheet \"Last synced: Nov 10, 2026 10:09 AM EST\"",
+  "latest_thread_post_pt": "2026-11-06",
   "contact": "DM, call (no texts) Aaron 470-789-6702, or amasih@genesisofcumming.com",
-  "deals_pulled_all_deals_rows": 72,
+  "deals_pulled_all_deals_rows": 13,
   "access_status": "Accessible (public Google Sheet export)",
-  "notes": "Payments + tax, 1st payment due at signing for GA; $899 doc + $199 e-reg included; out-of-state add ~$149–151 + local TT&L. Genesis requires loyalty/conquest. Stock-level rows (VIN-specific units). Hyundai loaner tab had no units."
+  "notes": "Payments + tax, 1st payment due at signing for GA. Genesis new-car and all Hyundai rows list no model year in the sheet, so they are not published (year is never inferred). Struck-through old loaner prices are ignored."
  },
  {
   "broker": "Other broker spreadsheets found on the forum (not in All Deals)",
@@ -122,7 +122,7 @@
   "latest_thread_post_pt": null,
   "contact": null,
   "deals_pulled_all_deals_rows": 0,
-  "access_status": "Not accessible: Google returned HTTP 401 (sheet requires sign-in / not shared publicly). Also linked from Mercedes (759811), Exotics (770167), Toy/Lex/Volvo/Cady (759814) threads.",
+  "access_status": "Rechecked 2026-11-10: still HTTP 401 (private). Not accessible: Google returned HTTP 401 (sheet requires sign-in / not shared publicly). Also linked from Mercedes (759811), Exotics (770167), Toy/Lex/Volvo/Cady (759814) threads.",
   "notes": null
  },
  {
@@ -136,7 +136,7 @@
   "latest_thread_post_pt": null,
   "contact": null,
   "deals_pulled_all_deals_rows": 0,
-  "access_status": "Not accessible: HTTP 401 (private). Also in Hyundai (685828), Audi/BMW (760464), CDJR/GM (685946) threads.",
+  "access_status": "Rechecked 2026-11-10: still HTTP 401 (private). Not accessible: HTTP 401 (private). Also in Hyundai (685828), Audi/BMW (760464), CDJR/GM (685946) threads.",
   "notes": null
  },
  {
@@ -150,7 +150,7 @@
   "latest_thread_post_pt": null,
   "contact": null,
   "deals_pulled_all_deals_rows": 0,
-  "access_status": "Not accessible: both sheets HTTP 401 (private). Regional threads: South, Midwest, Northeast (e.g. 603936, 605426, 612936).",
+  "access_status": "Rechecked 2026-11-10: still HTTP 401 (private). Not accessible: both sheets HTTP 401 (private). Regional threads: South, Midwest, Northeast (e.g. 603936, 605426, 612936).",
   "notes": null
  },
  {
@@ -164,7 +164,7 @@
   "latest_thread_post_pt": null,
   "contact": null,
   "deals_pulled_all_deals_rows": 0,
-  "access_status": "Not accessible: HTTP 401 (private). Southeast/FL BMW, Mercedes (679276), Genesis/Lexus (681054).",
+  "access_status": "Rechecked 2026-11-10: still HTTP 401 (private). Not accessible: HTTP 401 (private). Southeast/FL BMW, Mercedes (679276), Genesis/Lexus (681054).",
   "notes": null
  },
  {
@@ -178,7 +178,7 @@
   "latest_thread_post_pt": null,
   "contact": null,
   "deals_pulled_all_deals_rows": 0,
-  "access_status": "Not accessible: HTTP 401 (private).",
+  "access_status": "Rechecked 2026-11-10: still HTTP 401 (private). Not accessible: HTTP 401 (private).",
   "notes": null
  },
  {
@@ -192,7 +192,7 @@
   "latest_thread_post_pt": null,
   "contact": null,
   "deals_pulled_all_deals_rows": 0,
-  "access_status": "Not accessible: HTTP 401 (private). BMW/Audi/MBZ thread 555387, Cadillac/Porsche 606194.",
+  "access_status": "Rechecked 2026-11-10: still HTTP 401 (private). Not accessible: HTTP 401 (private). BMW/Audi/MBZ thread 555387, Cadillac/Porsche 606194.",
   "notes": null
  },
  {
@@ -264,5 +264,75 @@
   "deals_pulled_all_deals_rows": 0,
   "access_status": "Public, but the sheet's first tab says these specials are no longer valid (they moved to a new platform). Not pulled.",
   "notes": null
+ },
+ {
+  "broker": "Rivian (manufacturer)",
+  "leasehackr_username": null,
+  "type": "Manufacturer (direct)",
+  "region_states_served": "Rivian leasing states",
+  "forum_thread_url_s": null,
+  "spreadsheet_url": "https://rivian.com/r1s | https://rivian.com/r1t",
+  "last_updated_per_sheet": "Example offers valid 11/3/2026-11/30/2026",
+  "latest_thread_post_pt": null,
+  "contact": "rivian.com",
+  "deals_pulled_all_deals_rows": 2,
+  "access_status": "Public manufacturer pages (fetched 2026-11-10)",
+  "notes": "Only the fully disclosed example offers (R1S Premium, R1T Premium) are published. Performance/Quad \"Est. lease\" figures on the same pages have no stated DAS/term, so they are not included."
+ },
+ {
+  "broker": "Tesla (manufacturer)",
+  "leasehackr_username": null,
+  "type": "Manufacturer (direct)",
+  "region_states_served": "Tesla leasing states",
+  "forum_thread_url_s": null,
+  "spreadsheet_url": "https://www.tesla.com/current-offers",
+  "last_updated_per_sheet": "Lease disclaimers: Model 3 apps after 10/22/2026, Model Y after 8/24/2026; $3,000 down, 36 mo, 10k mi, $695 acq. fee",
+  "latest_thread_post_pt": null,
+  "contact": "tesla.com",
+  "deals_pulled_all_deals_rows": 0,
+  "access_status": "tesla.com/current-offers is public but the $/mo lease figure is filled in by JavaScript per ZIP; tesla.com design pages return HTTP 403 to automated fetches",
+  "notes": "No Tesla monthly payment could be read from tesla.com, so none is published. No Tesla broker deals with numbers found on Leasehackr (Nov 2026)."
+ },
+ {
+  "broker": "Autologicx",
+  "leasehackr_username": "Autologicx",
+  "type": null,
+  "region_states_served": "NY/NJ/CT/PA",
+  "forum_thread_url_s": "https://forum.leasehackr.com/t/740865\nhttps://forum.leasehackr.com/t/727868\nhttps://forum.leasehackr.com/t/679279",
+  "spreadsheet_url": "https://docs.google.com/spreadsheets/d/1r0zVg09NP0GomWbGfsspF7MMWMz6corfhlWnRRzV7RQ",
+  "last_updated_per_sheet": "Tabs say \"UPDATED\"/\"UPDATES PENDING\" (no dates)",
+  "latest_thread_post_pt": "2026-11-10",
+  "contact": null,
+  "deals_pulled_all_deals_rows": 0,
+  "access_status": "Public (found 2026-11-10); not yet parsed",
+  "notes": "24 brand tabs, mixed layouts, payments include NY tax. Candidate to add."
+ },
+ {
+  "broker": "NYCLIFE",
+  "leasehackr_username": "nyclife",
+  "type": null,
+  "region_states_served": "NY/NJ/PA/CT",
+  "forum_thread_url_s": "https://forum.leasehackr.com/t/182311\nhttps://forum.leasehackr.com/t/173082",
+  "spreadsheet_url": "https://docs.google.com/spreadsheets/d/1pWmLMPm_ICRZKMmvsTrm8RwPzeztfPb0owTvbdoWmZk",
+  "last_updated_per_sheet": "Tabs \"Audi NOV\", \"BMW NOV\", \"Mercedes Benz NOV\"; others OCT and older",
+  "latest_thread_post_pt": "2026-11-05",
+  "contact": "PM nyclife on Leasehackr",
+  "deals_pulled_all_deals_rows": 0,
+  "access_status": "Public (found 2026-11-10); not yet parsed",
+  "notes": "Candidate to add."
+ },
+ {
+  "broker": "Stellar Auto",
+  "leasehackr_username": "stellarauto",
+  "type": null,
+  "region_states_served": "NY/NJ/CT",
+  "forum_thread_url_s": "https://forum.leasehackr.com/t/285143\nhttps://forum.leasehackr.com/t/357222",
+  "spreadsheet_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRe2KLm9TyQp-qMs6q4y-jEcJUkGjB5zXMF3D6-fn-3EwpL3RCGyivvX1SmT8KXtuWge3fjYoreGI_9/pubhtml",
+  "last_updated_per_sheet": "Tabs \"VOLVO NOV\", \"INFINITI NOV\"; Mazda OCT",
+  "latest_thread_post_pt": "2026-11-10",
+  "contact": null,
+  "deals_pulled_all_deals_rows": 0,
+  "access_status": "Published-to-web sheet (found 2026-11-10); not yet parsed",
+  "notes": "Candidate to add."
  }
 ]

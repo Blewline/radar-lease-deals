@@ -1,6 +1,9 @@
 {
- "updated_at": "2026-11-04T14:56:41+00:00",
- "source": "Leasehackr broker public Google Sheets",
- "deal_count": 616,
- "broker_count": 6
+ "updated_at": "2026-11-10T17:24:21+00:00",
+ "data_month": "2026-11",
+ "source": "Leasehackr broker public Google Sheets + manufacturer lease offer pages",
+ "deal_count": 683,
+ "broker_count": 7,
+ "posted_date_min": "2026-03-11",
+ "posted_date_max": "2026-11-09"
 }

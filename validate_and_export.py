@@ -17,13 +17,16 @@ import argparse, csv, json, os, re, sys, datetime
 COLS = ['Broker','LH Username','Source Tab','Tab Updated (per sheet)','Unit Type / Status','Year','Make','Model',
         'Trim / Description','MSRP (as listed)','MSRP ($)','MSRP Approx?','Monthly Payment ($)','Payment Basis',
         'Due at Signing (as listed)','DAS ($)','Term (mo)','Miles/yr','Region','Broker/Service Fee','Notes',
-        'Effective Monthly ($)','Effective Monthly incl. Broker Fee ($)','% of MSRP (payment/MSRP)','Spreadsheet URL']
+        'Effective Monthly ($)','Effective Monthly incl. Broker Fee ($)','% of MSRP (payment/MSRP)','Spreadsheet URL',
+        'Posted Date','Expires','Source URL']
 KEYS = ['broker','lh_username','source_tab','tab_updated_per_sheet','unit_type_status','year','make','model',
         'trim_description','msrp_as_listed','msrp_usd','msrp_approx','monthly_payment_usd','payment_basis',
         'due_at_signing_as_listed','das_usd','term_mo','miles_yr','region','broker_service_fee','notes',
-        'effective_monthly_usd','effective_monthly_incl_broker_fee_usd','pct_of_msrp_payment_msrp','spreadsheet_url']
+        'effective_monthly_usd','effective_monthly_incl_broker_fee_usd','pct_of_msrp_payment_msrp','spreadsheet_url',
+        'posted_date','expires','source_url']
 COL2KEY = dict(zip(COLS, KEYS))
 INTS = {'year','msrp_usd','das_usd','term_mo','miles_yr'}
+# posted_date / expires: ISO 'YYYY-MM-DD', or 'YYYY-MM' when the source only names the month; null if unknown
 NUMS = INTS | {'monthly_payment_usd','effective_monthly_usd','effective_monthly_incl_broker_fee_usd','pct_of_msrp_payment_msrp'}
 
 SOLD_RE = re.compile(r'\b(sold(\s*out)?|program\s+ended)\b', re.I)
@@ -86,6 +89,14 @@ def reasons(r):
         elif HEADER_RE.match(v): out.append(f'{k} "{v}" is header/section text')
     if SOLD_RE.search(r['unit_type_status'] or '') or SOLD_RE.search(r['notes'] or ''):
         out.append('SOLD / SOLD OUT / PROGRAM ENDED')
+    if re.search(r'malformed amount', r['notes'] or ''):
+        out.append('malformed amount in source sheet (flagged by build.py, not guessed)')
+    today = datetime.date.today().isoformat()
+    for k in ('posted_date', 'expires'):
+        v = r.get(k)
+        if v is not None and not re.fullmatch(r'20\d\d-\d\d(-\d\d)?', str(v)): out.append(f'{k} "{v}" not ISO')
+    if r.get('posted_date') and str(r['posted_date']) > today: out.append(f'posted_date {r["posted_date"]} in the future')
+    if r.get('expires') and len(str(r['expires'])) == 10 and str(r['expires']) < today: out.append(f'offer expired {r["expires"]}')
     return out
 
 def carryover_check(rows, rej):
@@ -105,6 +116,7 @@ def main():
     ap.add_argument('--xlsx', default='/workspace/leasehackr_broker_master.xlsx')
     ap.add_argument('--json'); ap.add_argument('--out', default=here)
     ap.add_argument('--write-xlsx', action='store_true')
+    ap.add_argument('--data-month', help="YYYY-MM written to meta.json (default: current month)")
     a = ap.parse_args()
     rows = load(a)
     fixes = {i: clean(r) for i, r in enumerate(rows)}
@@ -134,15 +146,20 @@ def main():
     with open(os.path.join(a.out, 'deals.csv'), 'w', newline='') as f:
         w = csv.DictWriter(f, KEYS); w.writeheader()
         for r in clean_rows: w.writerow({k: ('' if v is None else v) for k, v in r.items()})
+    pds = sorted(str(r['posted_date']) for r in clean_rows if r.get('posted_date'))
     json.dump({'updated_at': datetime.datetime.now(datetime.timezone.utc).replace(microsecond=0).isoformat(),
-               'source': 'Leasehackr broker public Google Sheets', 'deal_count': len(clean_rows),
-               'broker_count': len({r['broker'] for r in clean_rows})}, open(meta_path, 'w'), indent=1)
+               'data_month': a.data_month or datetime.date.today().strftime('%Y-%m'),
+               'source': 'Leasehackr broker public Google Sheets + manufacturer lease offer pages', 'deal_count': len(clean_rows),
+               'broker_count': len({r['broker'] for r in clean_rows}),
+               'posted_date_min': pds[0] if pds else None, 'posted_date_max': pds[-1] if pds else None},
+              open(meta_path, 'w'), indent=1)
     if a.write_xlsx and not a.json:
         import openpyxl
         wb = openpyxl.load_workbook(a.xlsx); ws = wb['All Deals']
         ws.delete_rows(2, ws.max_row)
         for r in clean_rows: ws.append([r[COL2KEY[c]] for c in COLS])
-        ws.auto_filter.ref = f'A1:Y{ws.max_row}'
+        for j, c in enumerate(COLS, 1): ws.cell(1, j, c)
+        ws.auto_filter.ref = f'A1:{openpyxl.utils.get_column_letter(len(COLS))}{ws.max_row}'
         wb.save(a.xlsx); print('updated All Deals tab in', a.xlsx)
 
 if __name__ == '__main__':
